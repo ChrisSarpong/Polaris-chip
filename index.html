@@ -30,10 +30,20 @@
   <polaris-chip title="Faculty and Staff"></polaris-chip>
   <polaris-chip title="Sports are the only thing that matter"></polaris-chip>
   <polaris-chip title="Grants and donations"></polaris-chip>
-
-  <h1>my-card</h1>
-  <my-card></my-card>
-
+  <!-- this is where Chris putss his code from code.pen -->
+<div class="Card">
+  <div class="btn-wrapper">
+  <h1 class = "card-Title">The Hermit Crab </h1>
+  <my-card>
+    title = "The Hermit Crab"
+    image = "https://upload.wikimedia.org/wikipedia/commons/8/8e/Calliactis_and_Dardanus_001.JPG"
+  </my-card> 
+  <details ?open="${this.fancy}">
+    <summary>Description</summary>
+    <div>
+      <slot>${this.description}</slot>
+    </div>
+  </details>
   <!-- this is what is bringing in the definition for this tag -->
   <script type="module" src="./src/polaris-chip.js"></script>
   <script type="module" src="./src/my-card.js"></script>
