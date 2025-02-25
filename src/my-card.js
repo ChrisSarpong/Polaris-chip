@@ -110,6 +110,12 @@ export class MyCard extends LitElement {
         <details ?open="${this.fancy}" @toggle="${this.openChanged}">
             <button class="toggle">Toggle</button>
         </details>
+          <meme-maker
+          alt="Up your meme game with hax and allow for more accessible memes"
+          image-url="https://media.wired.com/photos/593335d0714b881cb296a324/master/w_2560%2Cc_limit/Nemo.jpg"
+          bottom-text="just keep swimming"
+          top-text="SwImMING">
+          </meme-maker>
        <!-- <div id="panel">
           <button class="clone">Clone Card</button>
           <button class="name-change">Change name</button>
